@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  margin: 0;
+  padding: 0;
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(231, 149, 73);
+  padding: 0 20px;
+  color: aliceblue;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li:hover {
+  background-color: rgb(175, 82, 32);
+  padding: 5px 8px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.logo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0;
+  margin: 15px;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #50baf377;
+  background-image: url(cover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
+
+.quote {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(0, 255, 255, 0.87);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.719);
+}
+
+.project {
+  background-color: cadetblue;
+}
+
+footer {
+  background-color: chartreuse;
+  text-align: center;
+}
